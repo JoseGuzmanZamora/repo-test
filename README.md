@@ -2,3 +2,15 @@
 ## Welcome to my project!!
 
 This is my test git repo
+
+Estructura general de un a-a:
+
+$$
+\begin{array}{c}
+\hspace{1.1em} \color{red}{\text{R}} \\
+\hspace{1.1em} | \\
+\text{H}_2\text{N} - \text{C} - \text{H} \\
+\hspace{1.1em} | \\
+\hspace{1.2em} \text{COOH}
+\end{array}
+$$
