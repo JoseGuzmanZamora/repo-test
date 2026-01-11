@@ -40,7 +40,7 @@ class Forecast:
 
 class Weather:
     """
-    Basic weather forecast manager.
+    Basic weather forecast manager, changing another comment.
 
     Assumptions:
     - Forecasts are stored by calendar day (date).
