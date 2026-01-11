@@ -21,7 +21,7 @@ import os
 
 @dataclass(frozen=True)
 class Forecast:
-    """Represents a single day's forecast."""
+    """Represents a single day's forecast. I like this comment."""
     day: date
     high_c: float
     low_c: float
