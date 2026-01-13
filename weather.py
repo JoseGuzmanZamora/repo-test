@@ -149,13 +149,6 @@ class Weather:
             raise ValueError("No forecasts available")
         return max(forecasts, key=lambda f: f.high_c)
 
-    def wettest_day(self) -> Forecast:
-        """Return the day with the most precipitation."""
-        forecasts = list(self.iter_forecasts())
-        if not forecasts:
-            raise ValueError("No forecasts available")
-        return max(forecasts, key=lambda f: f.precipitation_mm)
-
     # ----------------------------
     # Unit conversions
     # ----------------------------
