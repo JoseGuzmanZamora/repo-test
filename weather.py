@@ -10,7 +10,7 @@ A small, self-contained "Weather" class demonstrating basic functionality:
 This is not a full meteorological model—just a practical example class.
 """
 
-"Imports for data handling"
+"Imports for data handling. (Comment by Victor)"
 from __future__ import annotations
 
 from dataclasses import dataclass, asdict
