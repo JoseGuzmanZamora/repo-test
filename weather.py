@@ -41,7 +41,7 @@ class Forecast:
 
 class Weather:
     """
-    Basic weather forecast manager.
+    Basic weather forecast manager, changing another comment.
 
     Assumptions:
     - Forecasts are stored by calendar day (date).
@@ -88,7 +88,7 @@ class Weather:
         )
 
     def remove_forecast(self, day: date) -> None:
-        """Remove a forecast for a specific day."""
+        """Remove a forecast for a specific day. Modifying comment."""
         if day not in self._forecasts:
             raise KeyError(f"No forecast found for {day.isoformat()}")
         del self._forecasts[day]
