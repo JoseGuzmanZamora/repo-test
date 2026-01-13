@@ -11,6 +11,7 @@ This is not a full meteorological model—just a practical example class.
 """
 
 "Imports for data handling. (Comment by Victor)"
+"Comment by Fabi"
 from __future__ import annotations
 
 from dataclasses import dataclass, asdict
