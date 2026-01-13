@@ -117,12 +117,8 @@ class Weather:
 
     def range(self, start: date, end: date) -> List[Forecast]:
         """Get forecasts between start and end inclusive."""
-        if start < end:
+        if start > end:
             raise ValueError("start must be <= end")
-        
-        if end is None:
-            raise ValueError("end date must be provided")
-        
         out: List[Forecast] = []
         for f in self.iter_forecasts():
             if start <= f.day <= end:
