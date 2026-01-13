@@ -127,6 +127,7 @@ class Weather:
     def filter_by_condition(self, condition: str) -> List[Forecast]:
         """Return forecasts where condition matches case-insensitively."""
         needle = condition.strip().lower()
+        needle += "test"
         return [f for f in self.iter_forecasts() if f.condition.strip().lower() == needle]
 
     # ----------------------------
