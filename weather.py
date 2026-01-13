@@ -186,6 +186,7 @@ class Weather:
         return {
             "location": self.location,
             "timezone": self.timezone,
+            "country" : "Guatemala",
             "forecasts": [
                 {
                     **asdict(f),
